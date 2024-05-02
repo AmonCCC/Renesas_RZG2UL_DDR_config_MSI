@@ -1,0 +1,15 @@
+diff --git a/plat/renesas/rz/board/g2ul_smarc/rz_board.mk b/plat/renesas/rz/board/g2ul_smarc/rz_board.mk
+index 4ab752aa2..59fb762ff 100644
+--- a/plat/renesas/rz/board/g2ul_smarc/rz_board.mk
++++ b/plat/renesas/rz/board/g2ul_smarc/rz_board.mk
+@@ -5,8 +5,8 @@
+ #
+ 
+ 
+-DDR_SOURCES	+=	plat/renesas/rz/soc/${PLAT}/drivers/ddr/param_mc_C-011_D4-01-2.c	\
+-				plat/renesas/rz/common/drivers/ddr/param_swizzle_T3bcud2.c
++DDR_SOURCES	+=	plat/renesas/rz/soc/${PLAT}/drivers/ddr/param_mc_C-011_2GB_Amon.c	\
++				plat/renesas/rz/common/drivers/ddr/param_swizzle_T3bcud2_Amon.c
+ 
+ DDR_PLL4	:= 1600
+ $(eval $(call add_define,DDR_PLL4))

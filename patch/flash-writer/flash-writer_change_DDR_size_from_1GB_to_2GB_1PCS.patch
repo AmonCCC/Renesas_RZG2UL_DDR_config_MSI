@@ -1,0 +1,13 @@
+diff --git a/makefile b/makefile
+index 0d4c834..89ed5fb 100644
+--- a/makefile
++++ b/makefile
+@@ -89,7 +89,7 @@ else ifeq ("$(BOARD)", "RZG2UL_SMARC")
+ FILENAME_ADD = _RZG2UL_SMARC
+ DEVICE   = RZG2UL
+ DDR_TYPE = DDR4
+-DDR_SIZE = 1GB_1PCS
++DDR_SIZE = 2GB_1PCS
+ SWIZZLE  = T3BCUD2
+ DEVICE_TYPE = 1
+ else ifeq ("$(BOARD)", "RZG2UL_TYPE2_SMARC")
